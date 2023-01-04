@@ -17,7 +17,6 @@ class QuranService{
                 completion(.success(data))
                 return
             }
-            print("masuk kesini")
             completion(.failure(result.response?.toCustomExtension() ?? CustomException()))
         })
     }
