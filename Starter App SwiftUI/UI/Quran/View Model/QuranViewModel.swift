@@ -23,4 +23,9 @@ class QuranViewModel:ObservableObject{
             }
         }
     }
+    
+    @Published var count:Int = 0
+    func increment(){
+        count+=1
+    }
 }

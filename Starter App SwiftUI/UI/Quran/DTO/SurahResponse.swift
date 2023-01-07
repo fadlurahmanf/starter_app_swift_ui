@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct SurahResponse:Decodable{
+struct SurahResponse:Decodable,Identifiable{
+    var id = UUID()
     let numberSurah:Int?
     let arabicName:String?
     let latinName:String?

@@ -17,6 +17,7 @@
 		AA5170EE296008BE00DA8ABA /* Starter_App_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5170ED296008BE00DA8ABA /* Starter_App_SwiftUITests.swift */; };
 		AA5170F8296008BE00DA8ABA /* Starter_App_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5170F7296008BE00DA8ABA /* Starter_App_SwiftUIUITests.swift */; };
 		AA5170FA296008BE00DA8ABA /* Starter_App_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5170F9296008BE00DA8ABA /* Starter_App_SwiftUIUITestsLaunchTests.swift */; };
+		AA7EF7CF2965AB7100DFEAEE /* StandardLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7EF7CE2965AB7100DFEAEE /* StandardLoadingView.swift */; };
 		AABE4F422960297C00F7D02F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4F412960297C00F7D02F /* CustomButton.swift */; };
 		AABE4F462960510E00F7D02F /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4F452960510E00F7D02F /* AppConstant.swift */; };
 		AABE4F4B296052F700F7D02F /* QuranService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4F4A296052F700F7D02F /* QuranService.swift */; };
@@ -28,7 +29,7 @@
 		AABE4F5D296158D300F7D02F /* LoadingDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4F5C296158D300F7D02F /* LoadingDialog.swift */; };
 		AABE4F6129615C5800F7D02F /* SplashPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4F6029615C5800F7D02F /* SplashPage.swift */; };
 		AABE4F642961BE9700F7D02F /* RouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4F632961BE9700F7D02F /* RouteViewModel.swift */; };
-		AAD02B582963036600B6F6BC /* List Surah Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD02B572963036600B6F6BC /* List Surah Page.swift */; };
+		AAD02B582963036600B6F6BC /* ListSurahPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD02B572963036600B6F6BC /* ListSurahPageView.swift */; };
 		AAD02B5B296313C000B6F6BC /* QuranViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD02B5A296313C000B6F6BC /* QuranViewModel.swift */; };
 		AAD02B5E2963141D00B6F6BC /* NetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD02B5D2963141D00B6F6BC /* NetworkState.swift */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		AA5170F3296008BE00DA8ABA /* Starter App SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starter App SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5170F7296008BE00DA8ABA /* Starter_App_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter_App_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		AA5170F9296008BE00DA8ABA /* Starter_App_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter_App_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA7EF7CE2965AB7100DFEAEE /* StandardLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardLoadingView.swift; sourceTree = "<group>"; };
 		AABE4F412960297C00F7D02F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		AABE4F452960510E00F7D02F /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		AABE4F4A296052F700F7D02F /* QuranService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranService.swift; sourceTree = "<group>"; };
@@ -80,7 +82,7 @@
 		AABE4F5C296158D300F7D02F /* LoadingDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDialog.swift; sourceTree = "<group>"; };
 		AABE4F6029615C5800F7D02F /* SplashPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPage.swift; sourceTree = "<group>"; };
 		AABE4F632961BE9700F7D02F /* RouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewModel.swift; sourceTree = "<group>"; };
-		AAD02B572963036600B6F6BC /* List Surah Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List Surah Page.swift"; sourceTree = "<group>"; };
+		AAD02B572963036600B6F6BC /* ListSurahPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSurahPageView.swift; sourceTree = "<group>"; };
 		AAD02B5A296313C000B6F6BC /* QuranViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranViewModel.swift; sourceTree = "<group>"; };
 		AAD02B5D2963141D00B6F6BC /* NetworkState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkState.swift; sourceTree = "<group>"; };
 		E19E8C0F1376585CDE9232A7 /* Pods_Starter_App_SwiftUI_Starter_App_SwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starter_App_SwiftUI_Starter_App_SwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,9 +201,18 @@
 			path = "Starter App SwiftUIUITests";
 			sourceTree = "<group>";
 		};
+		AA7EF7CD2965AB5900DFEAEE /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				AA7EF7CE2965AB7100DFEAEE /* StandardLoadingView.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		AABE4F402960292E00F7D02F /* Custom View */ = {
 			isa = PBXGroup;
 			children = (
+				AA7EF7CD2965AB5900DFEAEE /* Layout */,
 				AABE4F5629613C6200F7D02F /* Dialog */,
 				AABE4F5529613C5500F7D02F /* Button */,
 			);
@@ -241,7 +252,7 @@
 				AAD02B59296313AE00B6F6BC /* View Model */,
 				AABE4F492960525000F7D02F /* DTO */,
 				AABE4F4A296052F700F7D02F /* QuranService.swift */,
-				AAD02B572963036600B6F6BC /* List Surah Page.swift */,
+				AAD02B572963036600B6F6BC /* ListSurahPageView.swift */,
 			);
 			path = Quran;
 			sourceTree = "<group>";
@@ -594,9 +605,10 @@
 				AAD02B5E2963141D00B6F6BC /* NetworkState.swift in Sources */,
 				AA5170DD296008BD00DA8ABA /* App.swift in Sources */,
 				AABE4F422960297C00F7D02F /* CustomButton.swift in Sources */,
+				AA7EF7CF2965AB7100DFEAEE /* StandardLoadingView.swift in Sources */,
 				AABE4F4B296052F700F7D02F /* QuranService.swift in Sources */,
 				AABE4F642961BE9700F7D02F /* RouteViewModel.swift in Sources */,
-				AAD02B582963036600B6F6BC /* List Surah Page.swift in Sources */,
+				AAD02B582963036600B6F6BC /* ListSurahPageView.swift in Sources */,
 				AABE4F462960510E00F7D02F /* AppConstant.swift in Sources */,
 				AAD02B5B296313C000B6F6BC /* QuranViewModel.swift in Sources */,
 			);

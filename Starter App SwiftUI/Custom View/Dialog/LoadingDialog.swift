@@ -7,18 +7,6 @@
 
 import SwiftUI
 
-struct ActivityIndicator:UIViewRepresentable{
-    func makeUIView(context: Context) -> UIActivityIndicatorView {
-        return UIActivityIndicatorView(style: .medium)
-    }
-    
-    func updateUIView(_ uiView: UIActivityIndicatorView, context: Context) {
-        uiView.startAnimating()
-    }
-    
-    
-}
-
 struct LoadingDialog: View {
     @Binding var isShow:Bool
     
